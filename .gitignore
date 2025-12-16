@@ -1,0 +1,23 @@
+# .gitignore
+
+# Python Setup
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Data Files (Never commit these!)
+*.csv
+*.parquet
+*.json
+data/
+
+# IDE Settings
+.vscode/
+.idea/
+.DS_Store
+
+# Spark Warehouse
+metastore_db/
+derby.log
+spark-warehouse/
