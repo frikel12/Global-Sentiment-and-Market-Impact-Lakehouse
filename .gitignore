@@ -3,7 +3,7 @@
 # Python Setup
 __pycache__/
 *.pyc
-venv/
+my_env/
 .env
 
 # Data Files (Never commit these!)
